@@ -1,0 +1,215 @@
+
+
+header {
+	background: #F5F5F5;
+	padding: 7px 0;
+	position: fixed;
+	width: 100%;
+	box-shadow: 0 0 15px #48D1CC;
+	
+}
+
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 30px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	padding-left: 80px;
+}
+
+nav a:hover {
+	color: #60a3bc;
+	text-decoration: underline;
+}
+
+.titulo-principal{
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear:left;
+	margin-top: 100px;
+}
+
+
+.principal {
+	padding: 3em 0;
+	width:100%;
+	margin: 0 auto;
+	background: url(fundo4.jpg);
+}
+
+.principal h1 {
+	margin-top: 100px;
+	margin-left: 50px;
+	
+	color: #fff;
+	
+}
+
+.pricipal p {
+	margin: 0 0 1em;
+	margin-top: 100px;
+	
+	
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.fotoperfil {
+	width:300px;
+	float: left;
+	margin: 0 20px 20px 0;
+	margin-top: 100px;
+	margin-left: 100px;
+	margin-right: 200px;
+	position: static;
+	
+}
+
+
+.texto p {
+	font-size: 25px;
+
+}
+
+p{
+	text-align: left;
+	margin-left: 100px;
+	color: #fff;
+}
+
+.texto a {
+	color: #000;
+	text-decoration: none;
+}
+
+.kgperdido {
+	color:#60a3bc;
+}
+	
+
+body{
+	background-color: #ad0a0a;
+	font-family: 'Montserrat', sans-serif;
+}
+
+main {
+	background-color: rgb(255, 255, 255);
+}
+.opcoes {
+	width:1000px;
+	margin:0 auto;
+	padding: 50px 0;
+	
+}
+
+.opcoes li {
+	display: inline-block;
+	text-align: center;
+	width: 40%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	margin-top: 50px;
+	
+}
+
+.opcoes li:hover {
+	border-color: #60a3bc;
+	background: url("gif.gif");
+	cursor: pointer;
+	font-style: #fff;
+}
+
+
+
+.opcoes li:active {
+	border-color: #088C19;	
+}
+
+.opcoes li:hover h2 {
+	font-size: 34px;
+}
+.opcoes h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.opcoes-descricao {
+	font-size: 18px;
+}
+
+
+.footer {
+	width: 8%;
+}
+
+footer {
+	width: 100%;
+	text-align: center;
+	background: #F5F5F5;
+	padding: 20px 0;
+	position: absolute;
+
+}
+
+.copyright {
+	color: #000000;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+@media screen and (max-width: 480px){
+	
+	.caixa, .principal, .conteudo-beneficios,.texto, footer, main {
+		width:100%;
+		margin:200px;
+	}
+
+	.vantagens {
+	width: 80%;
+	margin-right:1000px;
+	padding: 50px 0;
+	position: center;
+	}	
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position:static;
+	}
+
+	.lista-beneficios, .imagem-beneficios {
+		width:100%
+	}
+}

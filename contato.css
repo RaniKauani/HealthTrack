@@ -1,0 +1,142 @@
+
+
+header {
+	background: #F5F5F5;
+	padding: 7px 0;
+	position: fixed;
+	width: 100%;
+	box-shadow: 0 0 15px #48D1CC;
+	
+}
+
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 30px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	padding-left: 80px;
+}
+
+nav a:hover {
+	color: #60a3bc;
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 68px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color : #000;
+	
+
+}
+
+
+body{
+
+	font-family: 'Montserrat', sans-serif;
+}
+
+main {
+	background: url(fun.jpg);
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: auto auto;
+
+}
+
+
+form {
+	width: 700px;
+	margin-top: 150px;
+	margin-bottom: 100px;
+	
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+	color : #000;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 100%;
+	border: 1px solid #000000;
+	border-radius: 15px;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+
+
+.enviar {
+	width:100%;
+	padding: 15px 0;
+	background: #000;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+
+	
+}
+
+.enviar:hover {
+	background: url(gif.gif);
+	transform: scale(1.2);
+}
+
+.contatoimagem {
+	width: 500px;
+	margin-top : 160px;	
+	margin-left: 100px;
+	padding-left: 100px;
+	margin-right: 50px;
+
+}
+
+.footer {
+	width: 8%;
+}
+
+footer {
+	width: 100%;
+	text-align: center;
+	background: #F5F5F5;
+	padding: 40px 0;
+	position: absolute;
+
+}
+
+.copyright {
+	color: #000000;
+	font-size: 13px;
+	margin: 20px 0 0;
+}

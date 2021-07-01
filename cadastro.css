@@ -1,0 +1,159 @@
+header {
+	background: #F5F5F5;
+	padding: 7px 0;
+	position: fixed;
+	width: 100%;
+	box-shadow: 0 0 15px #48D1CC;
+	
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+
+
+}
+
+.logo {
+
+	
+}
+
+
+nav {
+	position: absolute;
+	top: 30px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	padding-left: 80px;
+}
+
+nav a:hover {
+	color: #60a3bc;
+	text-decoration: underline;
+}
+
+main {
+	background: url("fundo7.jpg");
+}
+
+.principal {
+	padding: 3em 0;
+	width:100%;
+	margin: 0 auto;
+	background: url(fundo4.jpg);
+}
+
+.principal h1 {
+	margin-top: 100px;
+	text-align: center;
+	color: #fff;
+	
+}
+
+.pricipal p {
+	margin: 0 0 1em;
+	margin-top: 100px;
+	text-align: right;
+	
+}
+
+p {
+	color: #fff;
+	text-align: center;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.kgperdido{
+	color:#60a3bc ;
+	text-align: center;
+
+}
+
+.form-group {
+    margin-top: 50px;
+}
+
+#logo {
+        width:50%;
+        height:50%;
+}
+
+.panel-heading{
+    font-size:150%;
+}
+
+.cadastrar {
+    background-color:#fff;
+    width: 7%;
+    height: 50px;
+    color: cadetblue;
+    margin-bottom: 100px;
+}
+
+
+.footer {
+	width: 8%;
+}
+
+footer {
+	width: 100%;
+	text-align: center;
+	background: #F5F5F5;
+	padding: 20px 0;
+	position: absolute;
+
+}
+
+.copyright {
+	color: #000000;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+@media screen and (max-width: 480px){
+	
+	.caixa, .principal, .conteudo-beneficios,.texto, footer, main {
+		width:100%;
+		margin:200px;
+	}
+
+	.vantagens {
+	width: 80%;
+	margin-right:1000px;
+	padding: 50px 0;
+	position: center;
+	}	
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position:static;
+	}
+
+	.lista-beneficios, .imagem-beneficios {
+		width:100%
+	}
+}
